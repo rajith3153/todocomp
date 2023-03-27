@@ -1,0 +1,119 @@
+.todo-list {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  button:hover {
+    background-color: #0069d9;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  li .delete-button,
+  li .edit-button,
+  li .complete-button {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  li .edit-button {
+    background-color: #ffc107;
+  }
+  
+  li .complete-button {
+    background-color: #28a745;
+  }
+  
+  li .delete-button:hover{
+    background-color: #c82333
+  }
+  
+  li .edit-button:hover{
+    background-color: #ffc107
+  }
+  
+  li .complete-button:hover {
+    background-color: #28a745;
+  }
+  
+  h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .completed-tasks {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .completed-tasks h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .completed-tasks ul {
+    list-style: none;
+    padding: 20px;
+  }
+  
+  .completed-tasks li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding: 20px;
+  }
+  
