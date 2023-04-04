@@ -1,6 +1,17 @@
 import React from "react";
 
-function Completed({ completedItems, handleUndo }) {
+
+function Completed(props) {
+  const {completedItems,setCompletedItems,items,setItems}= props
+
+  const handleUndo = (id) => {
+    const itemToUndo = completedItems.find((item) => item.id === id);
+    const updatedCompletedItems = completedItems.filter(
+      (item) => item.id !== id
+    );
+    setCompletedItems(updatedCompletedItems);
+    setItems(items.concat(itemToUndo));
+  };
     
   return (
     <div>

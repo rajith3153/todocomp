@@ -1,6 +1,7 @@
 import React from "react";
 
-function AddTask({handleSubmit,text,handleChange,editing}) {
+function AddTaskForm({handleSubmit,text,handleChange,editing}) {
+  
   return (
     <div>
       <form onSubmit={handleSubmit} className="row g-3">
@@ -23,4 +24,4 @@ function AddTask({handleSubmit,text,handleChange,editing}) {
   );
 }
 
-export default AddTask;
+export default AddTaskForm;
